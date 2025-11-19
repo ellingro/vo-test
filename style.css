@@ -119,6 +119,25 @@ body {
     margin-bottom: 8px;
 }
 
+/* CARD MED BILDE */
+.card {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.card-content {
+    flex: 1;
+}
+
 /* TABELLDESIGN FOR PROGRAMMET */
 .table-wrapper {
     background: white;
