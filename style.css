@@ -120,11 +120,7 @@ body {
 }
 
 /* CARD MED BILDE */
-.card {
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;
-}
+
 
 .card img {
     width: 120px;
