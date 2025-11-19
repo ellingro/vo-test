@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+p {
+    margin-bottom: 1rem; /* gir luft under hvert avsnitt */
+}
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
