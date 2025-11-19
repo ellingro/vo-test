@@ -193,4 +193,21 @@ tbody tr:hover {
         flex-wrap: wrap;
         gap: 10px;
     }
+    .card {
+        flex-direction: column;
+        align-items: stretch;    /* full bredde */
+    }
+
+    /* Tekst først */
+    .card-content {
+        order: 1;
+    }
+
+    /* Bilde under teksten */
+    .card img {
+        order: 2;
+        width: 100%;            /* la bildet fylle bredden */
+        height: auto;           /* behold proporsjonene */
+        border-radius: 12px;    /* litt myke hjørner fortsatt */
+    }
 }
